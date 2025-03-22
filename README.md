@@ -19,6 +19,25 @@ This setup is particularly useful for systems with multiple GPUs, especially whe
 - Prevents Vulkan-related issues in dual GPU setups
 - Provides stable performance on the AMD GPU
 
+## Getting Started
+
+1. Clone the repository:
+   ```powershell
+   git clone https://gitlab.com/your-username/koboldcpp-amd-rdna2.git
+   ```
+
+2. Navigate to the project directory:
+   ```powershell
+   cd koboldcpp-amd-rdna2
+   ```
+
+   Alternatively, you can open the project in Visual Studio Code:
+   - Open Visual Studio Code
+   - Go to File > Open Folder
+   - Navigate to where you cloned the repository (e.g., `C:\Users\YourUsername\Documents\koboldcpp-amd-rdna2`)
+   - Click "Select Folder"
+   - Open the integrated terminal in VS Code using `` Ctrl + ` `` or View > Terminal
+
 ## Prerequisites
 
 - AMD GPU with ROCm support (tested with RX 6700 XT)
@@ -92,7 +111,7 @@ Optimized configuration:
 
 ## Usage
 
-1. Stop any existing KoboldCpp processes:
+1. Stop any existing KoboldCpp processes (only if you have run it already):
 ```powershell
 Get-Process -Name koboldcpp_rocm -ErrorAction SilentlyContinue | Stop-Process -Force
 ```
