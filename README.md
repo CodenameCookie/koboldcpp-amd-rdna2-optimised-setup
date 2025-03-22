@@ -30,7 +30,7 @@ This setup is particularly useful for systems with multiple GPUs, especially whe
 
 1. Clone the repository:
    ```powershell
-   git clone https://gitlab.com/your-username/koboldcpp-amd-rdna2.git
+   git clone https://gitlab.com/CodenameCookie/koboldcpp-amd-rdna2.git
    ```
 
 2. Navigate to the project directory:
