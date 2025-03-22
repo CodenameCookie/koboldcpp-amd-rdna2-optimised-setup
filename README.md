@@ -135,7 +135,6 @@ We welcome contributions to improve this setup! Here's how you can help:
 
 ### Code Style
 - Follow the existing code style
-- Use UK English spelling in documentation
 - Keep code comments clear and concise
 - Update documentation for any new features
 
