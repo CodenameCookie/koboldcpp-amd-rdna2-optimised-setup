@@ -19,6 +19,13 @@ This setup is particularly useful for systems with multiple GPUs, especially whe
 - Prevents Vulkan-related issues in dual GPU setups
 - Provides stable performance on the AMD GPU
 
+## Prerequisites
+
+- AMD GPU with ROCm support (tested with RX 6700 XT)
+- Windows 10/11
+- Python 3.x
+- KoboldCpp ROCm version
+
 ## Getting Started
 
 1. Clone the repository:
@@ -37,13 +44,6 @@ This setup is particularly useful for systems with multiple GPUs, especially whe
    - Navigate to where you cloned the repository (e.g., `C:\Users\YourUsername\Documents\koboldcpp-amd-rdna2`)
    - Click "Select Folder"
    - Open the integrated terminal in VS Code using `` Ctrl + ` `` or View > Terminal
-
-## Prerequisites
-
-- AMD GPU with ROCm support (tested with RX 6700 XT)
-- Windows 10/11
-- Python 3.x
-- KoboldCpp ROCm version
 
 ## Installation
 
